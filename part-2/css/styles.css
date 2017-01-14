@@ -15,15 +15,69 @@ body {
   margin: 0;
 }
 
+.container {
+    margin: auto;
+}
+
 img {
   max-width: 100%;
+    
 }
 
 figure {
   margin: 0;
+    padding: 0;
+    float: left;
+    width: 180px;
+    height: 300px;
+    padding: 10px;
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+    border: 1px solid grey;
+    height:  
 }
+
+.film-title {
+    position: relative;
+    bottom: 8px;
+}
+
+.action-watch-later {
+    position: relative;
+    left: 125px;
+    bottom: 240px;
+    z-index: 2;
+    color: red;     
+}
+
+.film-description {
+    padding: 5px;
+    margin: 10px;
+    bottom: 18px;
+    position: relative;
+    
+}
+
+.film {
+    width: 600px;
+    height: 270px;
+}
+
+.action-like {
+    position: relative;
+    left: 350px;
+    bottom: 35px;
+    color: red;
+    padding: 10px;    
+}
+    
+.action-likee {
+    position: relative;
+    left: 350px;
+    top: 60px;
+    color: red;
+    padding: 10px;
+    
